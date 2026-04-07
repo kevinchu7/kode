@@ -44,6 +44,10 @@ export default defineThemeConfig({
   //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   //   copyright: '',
   // },
+  footer: {
+    message: '搭建中，敬请期待...',
+    copyright: '',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/theme/#profile
@@ -72,10 +76,11 @@ export default defineThemeConfig({
   // },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/theme/#transition */
-  // transition: {
-  //   page: true,        // 启用 页面间跳转过渡动画
-  //   postList: true,    // 启用 博客文章列表过渡动画
-  //   appearance: 'fade',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
-  // },
+  transition: {
+    page: true,        // 启用 页面间跳转过渡动画
+    postList: true,    // 启用 博客文章列表过渡动画
+    appearance: 'circle-clip',  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
+  },
+  
 
 })
