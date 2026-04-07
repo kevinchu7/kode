@@ -83,10 +83,10 @@ const frontendBasics = defineCollection({
       collapsed: false,
       items: [
         { text: 'overview', link: '/frontend-basics/html-css/overview/' },
-        { text: 'HTML', link: '/frontend-basics/html-css/html/', },
-        { text: 'HTML5', link: '/frontend-basics/html-css/html5/' },
-        { text: 'CSS', link: '/frontend-basics/html-css/css/' },
-        { text: 'CSS3', link: '/frontend-basics/html-css/css3/' },
+        // { text: 'HTML', link: '/frontend-basics/html-css/html/', },
+        // { text: 'HTML5', link: '/frontend-basics/html-css/html5/' },
+        // { text: 'CSS', link: '/frontend-basics/html-css/css/' },
+        // { text: 'CSS3', link: '/frontend-basics/html-css/css3/' },
       ],
     },
     {
