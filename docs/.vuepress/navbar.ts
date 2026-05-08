@@ -70,7 +70,9 @@ export default defineNavbarConfig([
         text: '微服务', items: [
           { text: 'Nacos', link: '/backend-microservices/nacos/overview/' },
           { text: 'Gateway', link: '/backend-microservices/gateway/overview/' },
+          { text: 'OpenFeign', link: '/backend-microservices/openfeign/overview/' },
           { text: 'Sentinel', link: '/backend-microservices/sentinel/overview/' },
+          { text: 'Seata', link: '/backend-microservices/seata/overview/' },
           { text: 'Dubbo', link: '/backend-microservices/dubbo/overview/' }
         ],
         icon: 'iconify mdi:tag',
@@ -178,7 +180,8 @@ export default defineNavbarConfig([
     items: [
       {
         text: 'vibe coding', items: [
-          { text: 'Claude', link: '/vibe-coding/claude/overview/' },
+          // { text: 'Claude', link: '/vibe-coding/claude/overview/' },
+          { text: 'Claude', link: 'https://code.claude.com/docs/zh-CN/overview' },
         ],
         icon: 'iconify mdi:tag',
       },
